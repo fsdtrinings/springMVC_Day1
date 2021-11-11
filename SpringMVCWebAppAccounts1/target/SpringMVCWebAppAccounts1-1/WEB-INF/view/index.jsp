@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-  Hello JSP 
+  <form method="post" action="readAccount">
+  	Account ID <input type="text" name="accId"><br/>
+  	Account Name <input type="text" name="name"><br/>
+  	Account Balance<input type="text" name="balance"><br/>
+  	<input type="submit">
+  </form>
 </body>
 </html>
